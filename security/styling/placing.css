@@ -1,0 +1,26 @@
+
+.money
+{
+  color: green;
+  text-align: center;
+}
+
+body{background-color: #dae2ef}
+
+.uppercase {text-transform: uppercase;}
+
+.mid
+{
+  text-align: center;
+  background-color:#0026d1;
+  color: #e04545;
+
+}
+
+.dead{text-align: center;}
+
+.img-circle{border-radius: 50%;}
+
+th {padding: 5px;}
+
+.even{background-color: lightblue;}
