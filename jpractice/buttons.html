@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Buttons and Such</title>
+<script type="text/javascript">
+//declaring variables
+var userName;
+var score;
+var ageMonths;
+
+//initializing variables
+userName = 'Big Programming Guy';
+score = 12;
+ageMonths = 12 * 5;
+
+//writing vars to screen
+document.write(ageMonths);
+document.write('<br/>');
+document.write(userName);
+document.write('<br/>');
+document.write(score);
+
+// function show() {
+//   alert('No Way')
+// };
+//
+// function display() {
+// var close;
+//
+// close=document.getElementById('blah').value;
+// document.getElementById('super').innerHTML = ("We are " + close  );
+// }
+
+
+
+// var val1 = 5;
+// var val2 = 8;
+
+function adding() {
+
+  // var total;
+
+// var x = parseInt('num1');
+// var y = Number('num2');
+var   val1 = parseInt(document.getElementById('num1').value);
+var  val2 = parseInt(document.getElementById('num2').value);
+  var total = val1 + val2;
+  // return(total)
+document.getElementById('mo').innerHTML=("The answer is " + total);
+
+
+}
+
+</script>
+
+  </head>
+  <body>
+
+<p> nice guy</p>
+
+<button type="button" name="showButton"  onclick="show()" > Press me</button>
+
+<p>
+
+<input type="text" name="tbox" id="blah">
+<button type="button" name="space" onclick="display()" > Show Text Box Info</button>
+<p id="super"  >   place of super    </p>
+</p>
+
+<button type="button" onclick="adding()" > Big Button</button>
+<br>
+
+<input type="text" name="" id="num1"> Number 1 box
+<br>
+<input type="text" name="" id="num2"> Number 2 Box
+
+<p id="mo"> place for mo</p>
+
+
+<script language="javascript" type="text/javascript">
+
+// roll();
+//var total = adding(10,5);
+// alert(total);
+
+  </script>
+
+  </body>
+
+
+
+</html>
