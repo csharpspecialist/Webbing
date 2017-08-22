@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Nice Page  </title>
+
+<script type="text/javascript">
+
+
+function sum()
+{
+   var fn, ln, result;
+   fn = parseInt(document.getElementById("n1").value, 10);
+   ln = parseInt(document.getElementById("n2").value, 10);
+   result =  (fn+ln);
+   document.getElementById("mo").innerHTML = result;
+}
+
+</script>
+
+
+  </head>
+  <body>
+    <button type="button" onclick="sum()" > Big Button</button>
+    <br>
+
+    <input type="text" name="" id="n1"> Number 1 box
+    <br>
+    <input type="text" name="" id="n2"> Number 2 Box
+
+    <p id="mo"> place for mo</p>
+
+
+
+  </body>
+</html>
