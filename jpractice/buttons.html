@@ -29,7 +29,9 @@ function display() {
 var close;
 
 close=document.getElementById('blah').value;
-document.getElementById('super').innerHTML = ("We are " + close  );
+var fine=document.getElementById('will').value;
+var normal=document.getElementById('sport').value;
+document.getElementById('super').innerHTML = ("You ordered " + close + fine + normal );
 };
 
 function adding() {
@@ -54,6 +56,8 @@ document.getElementById('mo').innerHTML=("The answer is " + total);
 <p>
 
 <input type="text" name="tbox" id="blah">
+<input type="text" name="tbox" id="will">
+<input type="text" name="tbox" id="sport">
 <button type="button" name="space" onclick="display()" > Show Text Box Info</button>
 <p id="super"  >   place of super    </p>
 </p>
