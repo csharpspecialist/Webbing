@@ -10,10 +10,10 @@
 
 body{background:#b9cae5;}
 
-  .go{height: 70px;
-  width: 140px;
+  .go{height: 80px;
+  width: 240px;
 background-color: green;
-font-size: 20px;
+font-size: 29px;
 
 }
 
@@ -25,20 +25,20 @@ font-size: 20px;
 color: #4286f4;}
 
 input[type="text"] {
-    font-size:18px;
+    font-size:40px;
 }
 
 </style>
-
 
 <script type="text/javascript">
 
     function display() {
     var close;
 
-    close=document.getElementById('blah').value;
-    var fine=document.getElementById('will').value;
-    var normal=document.getElementById('sport').value;
+    close =document.getElementById('blah').value;
+    var fine =document.getElementById('will').value;
+    var normal =document.getElementById('sport').value;
+
     document.getElementById('super').innerHTML = ("You ordered " + close + ' ' + fine + ' '+ normal );
 
     var el = document.getElementById('fast');
@@ -50,25 +50,18 @@ input[type="text"] {
 var msg = 'not happening';
   var el = document.getElementById('fast');
   el.innerHTML = msg;
-
 };
-
-
 
 </script>
   </head>
   <body>
 <h1> Welcome to the CCC PIZZERIA</h1>
 
-
 <p class="mid" id="red">   </p>
 <div class="mid">
 <img src="../arcade/flash/pizzeria1.jpg " alt="400 " width="450 " height="300 ">
 
  </div>
-
-
-
 
     <p class="good">
       <span>
@@ -82,11 +75,12 @@ Choose your first topping
 
 </div>
 
-    <p id="super" class="good"  >    </p>
+    <p id="super" class="good"  >  play  </p>
     </p>
 
     <div class="mid">
       <button type="button" class="go" onclick="trooper()" width="100" height="200"> Work in Progress </button>
+
     <p id="fast" class="good"  >    </p>
     </p>
 
