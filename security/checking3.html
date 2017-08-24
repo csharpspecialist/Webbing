@@ -8,95 +8,88 @@
 
     <title> Hats Page </title>
 
+    <script language="javascript" type="text/javascript">
+        //declaring variable
+var userN;
+var userBattingAvg;
+var dogYears;
+
+//Initializing variables now
+userN = 'Big Dude';
+userBattingAvg = .322;
+dogYears = 11 * 7;
+
+
+// Combined declaring and initializing
+ var Computer = 'Amd Monster';
+
+ document.write(Computer);
+ document.write('<br/>');
+  document.write(userN);
+ document.write('<br/>');
+  document.write(userBattingAvg);
+ document.write('<br/>');
+  document.write('Age in dog years = ' + dogYears);
+
+// function sparse() {
+//   var done=document.getElementsByName('dude').value;
+//   document.getElementsByClassName('whammo').innerHTML=(done);
+// };
+
+function not() {
+
+    var fine =document.getElementById('will').value;
+
+document.getElementsByTagName('whammo').innerHTML = ("You ordered " + fine  );
+
+
+}
+
+
+function display() {
+var close;
+
+close =document.getElementById('blah').value;
+// var fine =document.getElementById('will').value;
+// var normal =document.getElementById('sport').value;
+
+document.getElementById('super').innerHTML = ("You ordered " + close );
+}
+
+function check() {
+ close =document.getElementById('blah').value;
+  if (close > 50) {
+    document.getElementById('super').innerHTML = ("You passed" )
+  }
+    else {
+    document.getElementById('super').innerHTML = ("try again " );
+    }
+
+
+
+}
+    </script>
+
   </head>
 
   <body>
 
-
-
   <style media="screen">
 
-
-
   #red
+  {  color: red;  }
+  .red{color: red;}
 
-  {
-
-  color: red;
-
-  }
-
-
-
-  .pizza
-
-  {
-
-  color:blue;
-
-
-
-
-
-  }
-
-
-
+  .pizza { color:blue; }
   </style>
 
+  <p>
 
-
-
-
-    <ul>
-
-
-
-      <li> <a href="belts.html"> Belts Page </a>  </li>
-
-      <li> <a href="hats.html"> Hats Page </a> </li>
-
-      <li> <a href="jackets.html"> Jackets Page </a> </li>
-
-      <li> <a href="pants.html"> Pants Page </a> </li>
-
-
-
-
-
-    </ul>
-
-
-
-    <ol id="">
-
-    <li> Beret  </li>
-
-    <li> Beanie </li>
-
-    <li> Boater </li>
-
-    <li> Fedora </li>
-
-
-
-    </ol>
-
-
-
-    <ul class="">
-
-    <li> Sun Hat   </li>
-
-    <li> Bucket Hat  </li>
-
-    <li> Panama </li>
-
-    <li> Cow Girl </li>
-
-
-
-    </ul>
+    <hl>Constructive &amp; Co.</hl>
+    <script>document.write(' <h3>Welcome !</h3>');
+    </script>
+    <p>For all orders and inquiries please call
+    <em>555-3344</ em>  </p>
 
 
     <div style='float:left; width:30%'>
@@ -115,23 +108,39 @@
 
 
     <hr>
+	<input type="button"  class="gold" onclick="display()"  value="Going to work" />
+
+<span>
+Choose your first topping
+<input type="text" name="tbox" id="blah">  </span><br>
+
+<input type="button" class="red"name="bluto " onclick="not()" value="No Stopping">
+
+<span>
+What r u typing
+<input type="text" name="tbox" id="will" placeholder="will box" >  </span><br>
+
+  <p id="super" class="good"  >  play  </p>
+  </p>
+
+<button type="button" name="button" onclick="check()">checking button</button>
+
+<p name="whammo"> Will here!!!</p>
+<span name="tbox"></span>
 
 
-        <div style='float:left; width:30%'>
-            Put your content here...
-        </div>
 
 
 
-        <div style='float:left; width:40%;'>
+        <div style='float:left; width:50%;'>
             Put another content here...
         </div>
 
-        <div style='float:right; width:30%'>
+        <div style='float:right; width:50%'>
             Put your content here...
         </div>
 
-    <hr>
+
 
   </body>
 
