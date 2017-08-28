@@ -1,0 +1,83 @@
+
+h1{color:green;}
+
+.midpic{text-align:center;
+        position:relative;
+        margin:auto;
+        width:330px;
+        height:300px;
+}
+
+
+.grid {
+
+    display:grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "food food"
+        "drink drink"
+        "apps apps"
+        "desserts desserts"
+
+
+}
+
+
+.food{
+
+    grid-column-end: span 1;
+    grid-row-end:span 2;
+}
+
+.drink{
+
+    grid-column-end: span 1;
+     grid-row-end:span 2;
+}
+.apps{
+
+    grid-column-end: span 1;
+     grid-row-end:span 2;
+}
+.desserts{
+
+    grid-column-end: span 1;
+     grid-row-end:span 2;
+}
+
+
+
+
+
+.grid div:nth-child(even)
+{
+    background-color:#f2e5b8;
+
+}
+
+.grid div:nth-child(odd)
+{
+    background-color:#42c5f4;
+}
+
+
+@media screen and (min-width: 736px)
+{
+
+
+    .grid {
+
+    display:grid;
+
+    grid-template-columns: 1fr 1fr;
+
+       grid-template-areas:
+        "food food"
+        "drink drink"
+        "apps apps"
+        "desserts desserts";
+
+}
+
+}
