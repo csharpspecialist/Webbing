@@ -12,10 +12,17 @@
 
     var space = function () {
 var speedy = document.getElementById('one').value;
+<<<<<<< HEAD
  // document.write('<p>nice going</>' + speedy);
 alert(speedy + 'is here');
 // var el = speedy;
 // el.innerHTML=('hello world')
+=======
+ document.getElementById('here').innerHTML=(speedy);
+//alert(speedy + 'is here');
+var el = speedy;
+el.innerHTML=('hello world')
+>>>>>>> 09f75723496163aed2d39f17a9fd45043fe96149
     }  ;
 
 function cold() {
@@ -28,6 +35,19 @@ var night = function scaredy() {
   alert("going home!!");
 };
 
+// mouseover here!!!!
+function red() {
+    document.getElementById("words").style.color = "red";
+        alert('It Worked!!!');
+};
+
+// mouseover here!!!!
+function blue() {
+    document.getElementById("words").style.color = "blue";
+
+}
+
+
 
     </script>
   </head>
@@ -38,12 +58,15 @@ var night = function scaredy() {
 <h2>Price checking right here</h2>
 
 
-<input type="text" id="one ">
+<input type="text" id="one">
 <p id="here"> place holder</p>
+
+
 <button type="button" name="button" onclick="space()"> Press Me</button>
 
 <button type="button" name="button" onclick="cold()"> Really Icy</button>
 
 <button type="button" name="button" onclick="night()"> night thime</button>
-<!--
-<button type="button" name="button" onclick="getArea()"> Area Button </button>
+
+  <!-- mouseover here!!! -->
+<h1 id="words" onmouseover="red()" onmouseout="blue()">  Check This out!!! </h1>
