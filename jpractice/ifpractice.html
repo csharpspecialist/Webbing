@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>  Practicing if Statements    </title>
+  </head>
+
+<script type="text/javascript">
+
+function check() {
+  var numVal =document.getElementById('box').value;
+
+if (numVal >= 70) {
+  document.getElementById('show').innerHTML = ('You passed')
+} else
+ {
+  document.getElementById('show').innerHTML = ('You did not pass')
+}
+
+}
+
+function good() {
+
+  var word = document.getElementById('food').value;
+   var res = word.toUpperCase();
+switch (res) {
+  case 'SAUSAGE':
+      document.getElementById('display').innerHTML = ('Sausage is Good')
+    break;
+
+    case 'PEPPERONI':
+        document.getElementById('display').innerHTML = ('Pepperoni is great')
+      break;
+      case 'BEEF':
+          document.getElementById('display').innerHTML = ('Beef on a pizza!!')
+        break;
+    case 'CHICKEN':
+        document.getElementById('display').innerHTML = ('Chicken is good for you')
+      break;
+
+  default:
+      document.getElementById('display').innerHTML = ('We do not understand your answer')
+
+}
+
+}
+
+</script>
+
+  <body>
+<h2>Checking test scores</h2>
+
+<input type="text" id="box" placeholder="enter test score">
+<p id="show"> shows test score  </p>
+
+<button type="button" name="button" onclick="check()"> Big Button</button>
+<br>
+
+
+
+<input type="text" id="food" placeholder="Enter Meat Topping">
+<p id="display"> Display Topping  </p>
+<button type="button" onclick="good()"> Meat Choice </button>
+
+  </body>
+</html>

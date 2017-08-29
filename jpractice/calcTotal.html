@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Calculate total Page</title>
+
+
+<script type="text/javascript">
+
+
+// function calculateText(){
+//     var price = document.getElementsByClassName("item_price")[0].innerHTML;
+//     var priceSplit = price.split("$");
+//     var realprice = parseFloat(priceSplit[1]);
+//     var quantity = document.getElementsByClassName("item_quantity")[0].value;
+//     alert(realprice*quantity);
+// }
+
+
+
+function calculateText(){
+var price=document.getElementById("price").innerText
+var quantity=document.getElementsByClassName("item_quantity")[0].value
+var total=price*quantity
+alert("total: $"+total)
+
+}
+
+
+
+
+</script>
+
+  </head>
+  <body>
+
+
+
+
+    <div class="simpleCart_shelfItem">
+
+        <p class="item_name">  Lattes Page</p>
+          <span class="item_price"> Frapacinno Price $<label id="price">4.00</label></span><br/>
+        Number of Items: <input type="text" class="item_quantity" value="1" style="width:20px;"/><br/>
+        <input type="button" onclick="calculateText();" value="add to cart" />
+    </div>
+
+
+
+
+  </body>
+</html>

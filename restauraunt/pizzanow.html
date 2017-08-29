@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Pizza for you</title>
+
+
+
+    <script type="text/javascript">
+
+        function display() {
+        var close;
+
+        close =document.getElementById('blah').value;
+        var fine =document.getElementById('will').value;
+        var normal =document.getElementById('sport').value;
+
+        document.getElementById('super').innerHTML = ("You ordered " + close + ' ' + fine + ' '+ normal );
+
+        var el = document.getElementById('fast');
+        el.innerHTML = normal + 'Good Eats!!!!';
+
+        };
+
+     function trooper() {
+    var msg = 'not happening';
+      var el = document.getElementById('fast');
+      el.innerHTML = msg;
+    };
+
+    </script>
+
+
+
+  </head>
+  <body>
+
+<h1> Welcome to the CCC PIZZERIA</h1>
+
+<p class="mid" id="red">   </p>
+<div class="mid">
+<img src="../arcade/flash/pizzeria1.jpg " alt="400 " width="450 " height="300 ">
+
+ </div>
+
+    <p class="good">
+      <span>
+Choose your first topping
+  <input type="text" name="tbox" id="blah">  </span><br>
+  Choose your 2nd topping    <input type="text" name="tbox6" id="will"> <br>
+  Choose your 3rd topping  <input type="text" name="tbox" id="sport" size="20" >  <br>
+
+  <div class="mid">
+    <button type="button" class="go" onclick="display()" width="100" height="200"> Show Toppings </button>
+
+</div>
+
+    <p id="super" class="good"  >  play  </p>
+    </p>
+
+    <div class="mid">
+      <button type="button" class="go" onclick="trooper()" width="100" height="200"> Work in Progress </button>
+
+    <p id="fast" class="good"  >    </p>
+    </p>
+
+  </body>
+</html>

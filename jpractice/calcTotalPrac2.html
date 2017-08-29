@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>      </title>
+
+<style media="screen">
+  /*body{background-image: url('photos/blackhole2.jpg');
+background-repeat: no-repeat;}*/
+
+
+
+</style>
+
+<script type="text/javascript">
+
+// var total;
+ var quantity;
+
+    function calculateText(){
+    var price=document.getElementById("price").innerText
+    var price2=document.getElementById("price2").innerText
+    var totalPrice= price2+price;
+var item1=document.getElementById("piece").value;
+  //quantity + item1;
+  quantity=document.getElementsByClassName("item_quantity")[0].value
+  var total=price*(quantity);
+
+
+document.getElementById('all').innerHTML = (item1);
+
+document.getElementById('complete').innerHTML= 'Your total due is $' + total + '.00';
+
+    }
+</script>
+
+  </head>
+  <body>
+<h1> Working it out for totaling amounts!!  </h1>
+    <div class="simpleCart_shelfItem">
+
+        <p class="item_name">  Lattes Page</p>
+          <span class="item_price"> Frapacinno Price $ <label id="price">4.00</label></span><br/>
+
+
+          <p class="item_name">  Lattes Page</p>
+            <span class="item_price"> Frapacinno Price $ <label id="price2">5.00</label></span><br/>
+
+        Number of Items:  <input type="text" class="item_quantity" value="1" style="width:20px;"/><br/>
+
+
+      Pieces:  <input type="text" id="piece" value="1" style="width:20px;"/><br/>
+<!--
+   2nd Item:Working on it <input type="text" id="piece" value="3" style="width:20px;"/><br/> -->
+
+
+        <input type="button" onclick="calculateText();" value="add to cart" />
+    </div>
+
+
+<p id="complete">Final Price </p>
+<p id="all">all Price </p>
+
+  </body>
+</html>

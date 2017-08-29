@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Switch Practice</title>
+
+<script type="text/javascript">
+
+function grading()
+{
+
+var tempGrade = document.getElementById('score').value;
+var grade = tempGrade.toUpperCase();
+switch (grade)
+{
+case 'A+':
+document.getElementById('here').innerHTML =('Great Score!!');
+break;
+case 'A':
+document.getElementById('here').innerHTML =('Good Score!!');
+break;
+case 'B+':
+document.getElementById('here').innerHTML =('Pretty Good Score!!');
+break;
+case 'B':
+document.getElementById('here').innerHTML =('Just an OK Score!!');
+break;
+case 'C':
+document.getElementById('here').innerHTML =('Nose to Grindstone!!');
+break;
+default:
+document.getElementById('here').innerHTML =('Back to the Drawing Board!!');
+}
+}
+
+</script>
+
+
+  </head>
+  <body>
+
+<h1> Grading Page</h1>
+
+What was your numerical score??
+<input type="text" id="score">
+<br>
+
+<button type="button" name="button" onclick="grading()" > Grade Button </button>
+
+<p id="here"> checking here</p>
+
+
+
+
+
+  </body>
+</html>
