@@ -12,6 +12,7 @@ $(document).ready(function(){
     $(".btn1").click(function(){
         $("p").hide(2000);
     });
+    
     $(".btn2").click(function(){
         $("p").show(3000);
     });

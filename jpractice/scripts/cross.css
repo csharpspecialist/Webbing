@@ -1,6 +1,11 @@
 
 h1{color:green;}
 
+#flat{ font-size: 22px; color:#b7af16;}
+#run{ font-size: 22px; color: blue;}
+.btn2  {font-size: 20px;}
+  .btn1  {font-size: 20px;}
+
 .midpic{text-align:center;
         position:relative;
         margin:auto;
