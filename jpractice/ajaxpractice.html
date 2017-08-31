@@ -15,6 +15,7 @@
 
 <button type="button" onclick="loadDoc()">Change Content</button>
 
+<button type="button" id="clearDoc">Clear Box</button>
 
 <script>
 function loadDoc() {
@@ -25,14 +26,22 @@ function loadDoc() {
       this.responseText;
     }
   };
-  xhttp.open("GET", "clear.text", true);
+  xhttp.open("POST", "scripting/info.txt", true);
   xhttp.send();
 }
+
+function empty() {
+  document.getElementById('demo').innerHTML="";
+
+}
+
+document.getElementById('clearDoc').onclick=empty;
+
 </script>
 
-<script type="text/javascript" src="scripting/">
+<!-- <script type="text/javascript" src="scripting/">
 
-</script>
+</script> -->
 
 
   </body>
