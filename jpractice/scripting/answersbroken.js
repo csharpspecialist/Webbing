@@ -5,9 +5,9 @@ var y;
 function work(){
 
 x = document.getElementById("words").value;
-
+// toUpperCase(); below
 y = x.toCase();
-
+// change to yes below
 if (y == "yessir")
 {
   alert("I Like dancing also!!!");
@@ -16,7 +16,7 @@ else if  (y =="no")
 {
   alert(" I do not like dancing either")
 }
-  else if
+  else if //change to else
 {
 alert("We do not understand your answer")
 }
