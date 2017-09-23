@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>  Function Page        </title>
+<script type="text/javascript">
+
+
+//var weight = document.getElementById("heavy").value;
+
+
+function bark() {
+  var x = document.getElementById('myText').value;
+  var y = x.toUpperCase();
+  //  var weight = document.getElementById("heavy").value;
+if (y == 'DOG') {
+    document.getElementById("demo").innerHTML = "WOOF WOOF";
+} else {
+} document.getElementById("demo").innerHTML = "Meow";
+
+
+
+}
+
+</script>
+
+
+
+  </head>
+  <body>
+    <p> Enter the dog's weight here  <input type="text" id="myText" placeholder="dog weight">  </p>
+
+this code does not function as it should.  I tried numerous things but none of them work!!
+  <!-- <p> Enter the dog's name here  <input type="text" id="check " placeholder="dog name">  </p> -->
+  <button type="button" name="" onclick="bark()"> Bark Button</button>
+
+<p id="all" > all Price </p>
+<p id="demo" > all Price </p>
+
+  </body>
+</html>

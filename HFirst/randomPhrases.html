@@ -1,0 +1,19 @@
+
+<html lang="en">
+<head>
+<title>Phrase-o-matic</title>
+<meta charset="utf-8">
+<script>
+function makePhrases() {
+var words1 = ["Get 2 the choppa!!!", "Come with me if you want to live", "No way Jos'e", "U can't handle the truth", "Nice guys finish last!!","No Justice...No Peace", "There can be only one!!!", "Luke..I am your father", "I'm workin' over here!!", "Badges...We ain't got no stinkin badges!!!" ,"Wax on...wax off", "Go Ahead...Make my day", "Hasta la vista...baby!!", "Do Ya feel lucky..punk", "Say hello to my little friend!", "Show me the money!","There's no crying in baseball!","I'll be back.","Don't ever tell me the odds", "Bond..James..Bond","May the Force be with you."  ];
+var rand1 = Math.floor(Math.random() * words1.length);
+
+var phrase = words1[rand1] ;
+alert(phrase);
+}
+
+</script>
+</head>
+<body>
+<button type="button" name="button" onclick="makePhrases()"> Phrases Button </button>
+</body>

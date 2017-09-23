@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Baking Page</title>
+<script type="text/javascript">
+var status = bake(350);
+
+function bake(degrees) {
+var message;
+if (degrees > 500) {
+message = "I'm not a nuclear reactor!";
+} else if (degrees < 100) {
+message = "I'm not a refrigerator!";
+} else {
+message = "That's a very comfortable temperature for me.";
+
+
+}
+return message;
+
+}
+//document.write(message);
+document.write(status + "Hello Dude");
+</script>
+
+
+  </head>
+  <body>
+
+  </body>
+</html>
