@@ -7,7 +7,7 @@
 <script type="text/javascript">
 
 
-//var points = 0;
+var points = 0;
 function playTurn(player, location) {
 points = 0;
 if (location == 1) {
@@ -18,8 +18,11 @@ return points;
 var total = playTurn("Jai", 1);
 alert(points);
 
-
-
+var products = ["Choo Choo Chocolate", "Icy Mint", "Cake Batter", "Bubblegum"];
+var last = products.length - 1;
+//must have the reecent var below or this will not work!!
+var recent = products[last];
+document.write(recent);
 </script>
 
 

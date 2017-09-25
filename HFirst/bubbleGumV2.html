@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bubble Factory Test Lab</title>
+<script>
+var scores = [60, 50, 60, 58, 54, 54, 58, 50, 52, 54, 48, 69,
+34, 55, 51, 52, 44, 51, 69, 64, 66, 55, 52, 61,
+46, 31, 57, 52, 44, 18, 41, 53, 55, 61, 51, 44];
+
+function printAndGetHighScore(scores) {
+var highScore = 0;
+var output;
+for (var i = 0; i < scores.length; i++) {
+output = "Bubble solution #" + i + " score: " + scores[i];
+document.write(output);
+if (scores[i] > highScore) {
+highScore = scores[i];
+}
+}
+return highScore;
+}
+function getBestResults(scores, highScore) {
+var bestSolutions = [];
+for (var i = 0; i < scores.length; i++) {
+if (scores[i] == highScore) {
+bestSolutions.push(i);
+}
+}
+return bestSolutions;
+}
+
+var highScore = printAndGetHighScore(scores);
+document.write("Bubbles tests: " + scores.length);
+document.write("Highest bubble score: " + highScore);
+var bestSolutions = getBestResults(scores, highScore);
+document.write("Solutions with the highest score: " + bestSolutions);
+</script>
+</head>
+<body>
+  <p>  This is the Head first version. Its the way their book has it on page161 of the Headfirst javascript e- book.
+  I only changed where it says document.write to from console logs  </p>
+
+
+
+ </body>
+</html>
