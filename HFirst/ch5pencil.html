@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Ch5 Sharpen Pencil Challenge   </title>
+<script type="text/javascript">
+
+
+    var eightBall = { index: 0,
+    advice: ["yes", "no", "maybe", "not a chance"],
+    shake: function() {
+    this.index=this.index + 1;
+    if (eightball.index >= eightball.advice.length) {
+    eightball.index = 0;
+    }
+    },
+    look: function() {
+    return eightball.advice[eightball.index];
+    }
+    };
+    eightBall.shake();
+    document.write(eightBall.look())
+
+</script>
+
+
+
+  </head>
+  <body>
+    this is chapter 5's sharpen your pencil challenge
+  </body>
+</html>
