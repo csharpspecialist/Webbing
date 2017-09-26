@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Taxi JSon Page </title>
+
+<script type="text/javascript">
+
+
+
+function drive() {
+  var chevy = {
+  make: "Chevy",
+  model: "Bel Air",
+  year: 1957,
+  color: "red",
+  passengers: 2,
+  convertible: false,
+  mileage: 1021
+  };
+
+  if (chevy.mileage < 1965) {
+    alert("One of the all time Greats!!!!");
+  }
+  else {
+    alert ("U r a whipper snapper!!");
+  }
+}
+
+
+function ride() {
+  var fiat = {
+  make: "Fiat",
+  model: "500",
+  year: 1957,
+  color: "Medium Blue",
+  passengers: 2,
+  convertible: false,
+  mileage: 88000
+  };
+
+  if (fiat.mileage < 1950) {
+    alert("This is a classic");
+  }
+  else {
+    alert ("Youngster mobile!!");
+  }
+}
+
+function now() {
+  var chevy = {
+  make: "Chevy",
+  model: "Bel Air",
+  year: 1957,
+  color: "red",
+  passengers: 2,
+  convertible: false,
+  mileage: 1021
+
+  };
+
+  if (chevy.year < 1960) {
+    alert("Classics Never go our of style!!");
+  }
+  else {
+    alert ("Youngster mobile!!");
+  }
+}
+
+</script>
+
+  </head>
+  <body>
+
+<button type="button" onclick="drive()">Drive Button
+</button>
+
+<p><button type="button"
+   onclick="now()">Now Button
+</button>
+   </p>
+
+   <p>    <button type="button" onclick="ride()">Ride Button
+   </button>
+      </p>
+
+      <p>    <button type="button" onclick="now.interior()">News Button
+      </button>
+         </p>
+
+  </body>
+</html>

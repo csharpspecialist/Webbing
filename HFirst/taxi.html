@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Taxi JSon Page </title>
+
+<script type="text/javascript">
+
+var taxi = {
+make: "Webville Motors",
+model: "Taxi",
+year: 1955,
+color: "yellow",
+passengers: 4,
+convertible: false,
+mileage: 281341
+};
+
+function move(car) {
+  if (car.mileage < 1950) {
+  // return false;
+   alert("nice");
+  }
+  else {
+  // return true;
+  alert("not nice");
+  }
+//  return true;
+}
+
+
+function drive() {
+  var taxi = {
+  make: "Webville Motors",
+  model: "Taxi",
+  year: 1955,
+  color: "yellow",
+  passengers: 4,
+  convertible: false,
+  mileage: 281341
+  };
+
+  if (taxi.mileage < 1950) {
+    alert("This is a classic");
+  }
+  else {
+    alert ("Youngster mobile!!");
+  }
+}
+
+</script>
+
+  </head>
+  <body>
+
+the move button does not work!!!!  I just kept the code there in case I wanted to try and fix/work with this proj later.
+
+<button type="button" onclick="drive()">Drive Button
+</button>
+
+<button type="button" onclick="move()">Move Button
+</button>
+</button>
+
+  </body>
+</html>
