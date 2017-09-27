@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+    Dom Manipulation</title>
+
+    <script>
+    function init() {
+    var planet = document.getElementById("green");
+    planet.innerHTML = "Red Alert: hit by phaser fire!";
+
+    var burger = { mayo: "heinz", lettuce: "romaine"};
+    document.getElementById('open').innerHTML=burger.mayo;
+
+
+    }
+
+function space() {
+  var club = document.getElementById('red');
+  club.innerHTML = "We r feeling blue today!!!";
+
+}
+
+function flow()  {
+document.getElementById('flight').innerHTML="Hello Party People";
+}
+
+    window.onload = init;
+    // window.onload = space;
+
+document.getElementById('go').onclick=flow;
+    </script>
+  </head>
+  <body>
+
+<h1> Green Planet</h1>
+<div id="green">We are all green in these parts!!</div>
+
+
+<h1> Red Planet</h1>
+<p id="red">We are all red and ready for action!!</p>
+
+
+<h1> Blue Planet</h1>
+<p id="blue">The blues need to beat it!!!</p>
+
+<p id="open"> big opening!!!</p>
+
+
+<p id="flight"> flight school!!!</p>
+
+<button type="button" id="go" > Go Button</button>
+<p>
+<button type="button" onclick="space()"> Space Button</button>
+</p>
+
+
+
+
+  </body>
+</html>
