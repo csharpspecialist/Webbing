@@ -10,16 +10,16 @@
     advice: ["yes", "no", "maybe", "not a chance"],
     shake: function() {
     this.index=this.index + 1;
-    if (eightball.index >= eightball.advice.length) {
-    eightball.index = 0;
+    if (this.index >= this.advice.length) {
+    this.index = 0;
     }
     },
     look: function() {
-    return eightball.advice[eightball.index];
+    return this.advice[this.index];
     }
     };
     eightBall.shake();
-    document.write(eightBall.look())
+    document.write(eightBall.look());
 
 </script>
 
@@ -27,6 +27,6 @@
 
   </head>
   <body>
-    this is chapter 5's sharpen your pencil challenge
+    <!-- this is chapter 5's sharpen your pencil challenge -->
   </body>
 </html>

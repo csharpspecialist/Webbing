@@ -22,7 +22,12 @@ fuel:0,
 then this will never work.either use this or
 fiat.start in line  or both!!!   */
 start: function(){
-this.started = true;
+  if (this.fuel == 0)
+  {alert("The car is on empty, fill up before starting!")}
+  else {
+    this.started == true;
+  }
+
 },
 stopped:function(){
   started = false;
@@ -70,10 +75,10 @@ addfuel: function(amount) {
 //u must call both of these methods or nothing will happen!! or use fiat.start + the this keywork in line24
 
 }
-
+fiat.addfuel(5);
 fiat.start();
 
-fiat.addfuel(5);
+
 fiat.drive();
 
 }
