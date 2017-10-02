@@ -17,3 +17,15 @@ document.getElementById('spot').innerHTML= c;
 }
 document.getElementById('move').onclick=square;
 //this only works if the script file is external!!!
+
+
+function pace() {
+var input = "jenny@wickedlysmart.com";
+for(var i = 0; i < input.length; i++) {
+if (input.charAt(i) ==="@") {
+alert("There's an @ sign at index " + i);
+}
+}
+
+}
+document.getElementById('blast').onclick=pace;
