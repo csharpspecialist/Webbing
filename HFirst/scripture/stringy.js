@@ -35,6 +35,7 @@ alert("All Lower case here!!! ", vals);
 
 
 
+
 document.getElementById('speak').onclick=talk;
 document.getElementById('sep').onclick=pBook;
 document.getElementById('end').onclick=last;
