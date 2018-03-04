@@ -1,0 +1,177 @@
+[33mcommit dbcc4ab326900a67b732ca44ffbc7da2f1235552[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: COLOSSUS <netspec1@hotmail.com>
+Date:   Sat Mar 3 18:07:06 2018 -0500
+
+    trying out better branching techniques
+
+[33mcommit 73604c90a0cd9d6019437b816d5b60003da610a6[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Fri Oct 6 02:03:50 2017 -0400
+
+    pushing string.js
+
+[33mcommit 589de86ae79a69b5b29336f88e4aa56cf03ad594[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Mon Oct 2 09:19:43 2017 -0400
+
+    hf ch7 var.html conn 2 wiz.js file
+
+[33mcommit 80b1ec9025cefcf5245d4a3d90bdf9da9b6daf57[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Sun Oct 1 23:48:32 2017 -0400
+
+    ch7 strings r current proj
+
+[33mcommit 0e8bf51e163c3791e51a64e15c27714d29cddfe5[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Fri Sep 29 02:36:14 2017 -0400
+
+    ch 7 middle
+
+[33mcommit 8a2cceaefcd1615a2414a76c9b4d8cf4bea59db7[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Thu Sep 28 16:21:57 2017 -0400
+
+    ch7 page in the works
+
+[33mcommit b502f4a741064099754a34bac7c07a4f53f1aaf0[m
+Merge: b508c0c 91b0fa2
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Thu Sep 28 01:09:10 2017 -0400
+
+    Merge branch 'master' of https://github.com/csharpspecialist/Webbing
+
+[33mcommit b508c0c945e1bcc1e86aad5ca0fa310c6a745fd1[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Thu Sep 28 01:09:06 2017 -0400
+
+    Ch6 pencil + dom proj complete
+
+[33mcommit 91b0fa26781458fecdc20432d452ab260ecd268e[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Wed Sep 27 17:31:01 2017 -0400
+
+    c6domV2 in progress
+
+[33mcommit 328e1f082d187805777db2a8f7545f478153df69[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Wed Sep 27 01:44:05 2017 -0400
+
+    getting the function working withch6 proj
+
+[33mcommit 8b3eeb75d3e232532f4694299e1510088fb5e88c[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Wed Sep 27 01:13:41 2017 -0400
+
+    add ch6 dom file
+
+[33mcommit 3ac8dba86ca456eb18c14cfe844b5fad47c02018[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Tue Sep 26 20:02:16 2017 -0400
+
+    hfirst automatic v2 working 4 the most part
+
+[33mcommit 8a98bb841b0a807397b794e7d86f2ef22c88917c[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Tue Sep 26 08:42:48 2017 -0400
+
+    got the taxi site working fine
+
+[33mcommit 51ee48b0f4c62a9e7ad80194b46aac59bf0dbfcd[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Tue Sep 26 04:27:33 2017 -0400
+
+    working on ch5 sharp pencil chall
+
+[33mcommit 014d1ab8175650fbbaa6720889d42b45019104be[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Sun Sep 24 23:53:45 2017 -0400
+
+    up to ch 5 in hfirst book
+
+[33mcommit 54893a4fbe6210bdc9663c40b8cf951254bc02a2[m
+Merge: da69a9c 8788db8
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Sat Sep 23 16:41:29 2017 -0400
+
+    Merge branch 'master' of https://github.com/csharpspecialist/Webbing
+
+[33mcommit da69a9cc31417d0b5fcd3dc59da7b8fd68accad3[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Sat Sep 23 16:41:24 2017 -0400
+
+    hfirst Jscript working up to ch3
+
+[33mcommit 8788db882108d3f1b394a14d79c6248f0cbcc784[m
+Merge: 06d8859 5215c85
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Fri Sep 22 10:15:48 2017 -0400
+
+    Merge branch 'master' of https://github.com/csharpspecialist/Webbing
+
+[33mcommit 06d88595cee2cbf8cbbe10be9861868bc79c01bf[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Fri Sep 22 10:15:27 2017 -0400
+
+    pushing jpractice files
+
+[33mcommit 5215c8509de10d2a16d13e05d3ff600ec20fc4af[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Fri Sep 22 02:08:22 2017 -0400
+
+    added a random function
+
+[33mcommit d3930fba4eb2fa39ea5da453307d8a43f44ebedc[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Thu Sep 21 22:28:53 2017 -0400
+
+    javascipt hf practice
+
+[33mcommit b4bcb8bbc8b93b888c14221a5b4cdc640635bb67[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Tue Sep 19 01:46:17 2017 -0400
+
+    practicing headfirst Jscrpt excercises
+
+[33mcommit 411cded0274c641ea5388e5032b6f4d1708b6875[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Fri Sep 1 01:34:13 2017 -0400
+
+    fin add comments to ansbroken + checkbroken files
+
+[33mcommit 55a59eeebdafad00b4a06dd3fb6179831f316d73[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Thu Aug 31 19:40:44 2017 -0400
+
+    com debug hw assign checkingbroken, couresbroken, answerbroken & educationbroken
+
+[33mcommit 6b1dac1e70123ef3e0321d3e2757e96a8b316d45[m
+Merge: d5009ba d7630cf
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Thu Aug 31 09:02:50 2017 -0400
+
+    Merge branch 'master' of https://github.com/csharpspecialist/Webbing
+
+[33mcommit d5009ba8beaad13b6bd0c1da9212625565b11efd[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Thu Aug 31 09:02:43 2017 -0400
+
+    ajaxprac working
+
+[33mcommit d7630cf9acf4421b4b81af509e43fc7eac656495[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Thu Aug 31 04:04:26 2017 -0400
+
+    comp ang1 + proj40 for class demo
+
+[33mcommit 5cc01f0a636ed27e31d9f6d2f202c99885a61b73[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Thu Aug 31 04:03:26 2017 -0400
+
+    comp jquery class demo
+
+[33mcommit 00ead6f9d59015e86dc41f84230629755bed213f[m
+Author: csharpspecialist <netspec1@hotmail.com>
+Date:   Wed Aug 30 15:31:15 2017 -0400
+
+    working on ajax changes
